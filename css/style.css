@@ -1,0 +1,112 @@
+body{
+  margin: 0px;
+}
+
+.contain{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5% 2%;
+}
+
+.logo_icon{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+
+
+.incon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.incon ul{
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  border: 2px solid black;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.incon a{
+  display: block;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  color: black;
+  text-decoration: none;
+}
+
+.incon li{
+  border-right: 2px solid black;
+}
+
+.incon li:last-child{
+  border-right: none;
+}
+
+
+.Home,.Our_Profile{
+  margin: 5% 8%;
+}
+
+
+
+a:hover {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+}
+
+.isi{
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.hr{
+  border: none;
+  height: 2px;
+  padding: 0px;
+  width: 100%;
+}
+
+.Our_Profile{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  column-gap: 1%;
+}
+
+.profile{
+  border: 1px solid black;
+  width: 25%;
+}
+s
+.descrip{
+  border: 1px solid black;
+  width: 75%;
+}
+
+.prof_box1{
+  border: 1px solid rgb(235, 11, 11);
+}
+
+.desc_box1{
+  border: 1px solid black;
+}
+
+.kwkwkw{
+
+}
