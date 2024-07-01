@@ -52,8 +52,12 @@ body{
 }
 
 
-.Home,.Our_Profile{
+section .spec{
   margin: 5% 8%;
+}
+
+.Home{
+  width: 100%;
 }
 
 
@@ -64,13 +68,15 @@ a:hover {
 }
 
 .isi{
-  height: 500px;
+  height: 100%;
   width: 100%;
   border: 1px solid black;
+  font-size: 3em;
+  display: flex;
+  flex-direction: row;
 }
 
-.hr{
-  border: none;
+hr{
   height: 2px;
   padding: 0px;
   width: 100%;
@@ -92,11 +98,13 @@ a:hover {
 .profile{
   border: 1px solid black;
   width: 25%;
+
 }
-s
+
 .descrip{
   border: 1px solid black;
-  width: 75%;
+  width: 74%;
+
 }
 
 .prof_box1{
@@ -107,6 +115,40 @@ s
   border: 1px solid black;
 }
 
-.kwkwkw{
+.spa{
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
 
+.set {
+  width: 40%;
+}
+
+.output{
+  width: 40%;
+}
+
+.Massage_Us{
+  font-size: large;
+  display: inline;
+  text-align: left;
+}
+
+.nama,.tgg,.JenisK,.Pesan{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap:5%;
+
+}
+
+.JenisK_label{
+  display: inline;
+}
+
+.JenisK_input{
+  display: inline;
 }
