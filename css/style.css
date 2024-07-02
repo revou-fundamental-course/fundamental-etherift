@@ -9,7 +9,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5% 2%;
+  padding: 0% 2%;
 }
 
 header{
@@ -20,9 +20,12 @@ header{
 
 
 .logo_icon{
-  height: 5vh;
-  width: 5vh;
-  border: 2px solid black;
+  display: inline;
+  max-width: 25%;
+  height: auto;
+  padding: 0.5%;
+  text-align: center;
+  align-items: center;
 }
 
 
@@ -91,11 +94,6 @@ a:hover {
   flex-direction: row;
 }
 
-hr{
-  height: 2px;
-  padding: 0px;
-  width: 100%;
-}
 
 .Our_Profile{
   display: flex;

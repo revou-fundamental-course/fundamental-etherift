@@ -10,7 +10,8 @@
     <header>
       <div class="contain">
         <div class="logo_icon">
-          <img href="assets/logo.jpg">
+          <img src="assets/logo.png" class="logo_icon">
+          <div>ether</div>
         </div>
         <nav class="incon">
           <ul>
@@ -21,7 +22,6 @@
           </ul>
         </nav>
       </div>
-      <hr>
     </header>
     <section>
       <div class="spec">
@@ -75,13 +75,13 @@
         </div>
         <div class="spa">
               <div class="set">
-              <form>
+              <form id="Data">
                 <div class="nama">
                   <div class="nama_label">
                     <label for="name" >Nama</label>
                   </div>  
                   <div class="nama_input">
-                    <input id="name" type="text" class="text" placeholder="Nama" required>
+                    <input id="name" type="text" class="text" placeholder="Nama" name="name">
                   </div>
                 </div>
                 <div class="tgg">
@@ -89,7 +89,7 @@
                     <label for="tgg">Tanggal Lahir</label>
                   </div>
                   <div class="tgg_input">
-                    <input id="tgg" type="date" class="date" required>
+                    <input id="tgg" type="date" class="date" name="tgg">
                   </div>
                 </div>
                 <div class="JenisK">
@@ -97,9 +97,9 @@
                     <label>Jenis Kelamin</label>
                   </div>
                   <div class="JenisK_input">
-                    <input id="Laki" type="radio" required>
+                    <input id="Laki" type="radio" name="JenisKe" value="Laki-Laki">
                     <label for="laki">Laki-Laki</label>
-                    <input id="Pr" type="radio" required>
+                    <input id="Pr" type="radio" name="JenisKe" value="Perempuan">
                     <label id="Pr">Perempuan</label>
                   </div>
                 </div>  
@@ -108,17 +108,17 @@
                     <label>Pesan</label>
                   </div>
                   <div class="Text_input">
-                    <textarea placeholder="Pesan" required></textarea>
+                    <textarea placeholder="Pesan" id="Pesan" name="Pesan"></textarea>
                   </div>
                 </div>
                 <div class="Submit">
-                  <input type="submit" class="submit">
+                  <input type="submit" class="submit" onclick="transfer()">
                 </div>
               </form>
               </div>
 
-              <div class="output">
-                awdasd wasd wa
+              <div class="output" id="output">
+                
               </div>
           </div>
         </div>
@@ -126,5 +126,7 @@
     </section>
     <footer>
     </footer>
+    <script src="js/script.js">
+    </script>
   </body>
 </html>
