@@ -8,6 +8,24 @@
     height: auto;
   }
 
+  .More {
+    position: absolute;
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10; 
+    width: 10%;
+    height: 10%;
+    font-size: 0.4em;
+    margin: 1% 0%;
+}
+
+  button.More:hover {
+      background-color: #0056b3;
+  }
+  
   .incon {
     display: flex;
     align-items: center;
@@ -75,6 +93,116 @@
     text-align: center;
     box-sizing: border-box; 
     line-height: 1; 
+  }
+
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .Home{
+    position: relative;
+  }
+
+  .home_text{
+    position: absolute;
+    top: 10%; 
+    left: 5%; 
+    color: white; 
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .grad_box {
+    width: 100%; 
+    height: 100%; 
+    background-image: linear-gradient(to right, rgb(0,36,107,0.8), rgba(0, 0, 0, 0));
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+  .Slide_con {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .pic{
+    width: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+
+  .content h1,.content1 h1,.content3 h1{
+    margin: 1%;
+    font-size: 4em;
+  }
+
+
+  .content,.content1,.content3{
+    position: absolute;
+    top: 10%; 
+    left: 5%; 
+    color: white; 
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+  }
+
+
+  .slide {
+    width: 100%; 
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }  
+
+  .Slides{
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .Slide_con Button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5); 
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    outline: none;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+
+  .Slide_con Button:hover {
+    opacity: 1; 
+  }
+
+  .Slide_con .Slide_but_left {
+    left: 1%;
+  }
+
+  .Slide_con .Slide_but_right {
+    right: 1%;
+  }
+
+  .img1 {
+    width: 100%;
+    height: auto;
   }
 
   .Massage_Us {
@@ -227,6 +355,28 @@
     height: 10vw;
   }
 
+  .font{
+    font-size: 0.9em;
+  }
+
+  .More {
+    position: absolute;
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10; 
+    width: 30%;
+    height: 10%;
+    font-size: 0.8em;
+    margin: 4% 0%;
+}
+
+  button.More:hover {
+      background-color: #0056b3;
+  }
+  
   .logo_icon {
     display: inline;
     max-width: 35%;
@@ -304,6 +454,118 @@
     box-sizing: border-box;
     line-height: 1;
     font-size: 2em;
+  }
+
+
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .Home{
+    position: relative;
+  }
+
+  .home_text{
+    position: absolute;
+    top: 0%; 
+    left: 5%; 
+    color: white; 
+    border-radius: 5px;
+    font-size: 0.85em;
+  }
+
+  .grad_box {
+    width: 100%; 
+    height: 100%; 
+    background-image: linear-gradient(to right, rgb(0,36,107,0.8), rgba(0, 0, 0, 0));
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+  .Slide_con {
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .pic{
+    width: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+
+  .content h1,.content1 h1{
+    margin: 1%;
+    font-size: 4em;
+  }
+
+
+  .content,.content1,.content2, .content3{
+    position: absolute;
+    top: 10%; 
+    left: 5%; 
+    color: white; 
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+  }
+
+
+  .slide {
+    width: 100%; 
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }  
+
+  .Slides{
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .Slide_con Button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5); 
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    outline: none;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+
+  .Slide_con Button:hover {
+    opacity: 1; 
+  }
+
+  .Slide_con .Slide_but_left {
+    left: 1%;
+  }
+
+  .Slide_con .Slide_but_right {
+    right: 1%;
+  }
+
+  .img1 {
+    width: 100%;
+    height: auto;
   }
 
   .Massage_Us {
@@ -418,7 +680,7 @@
   .Our_Profile {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 100%;
   }
   
   .row {
@@ -462,12 +724,15 @@ header {
   background-color: #00246B;
 }
 
-.incon li:last-child {
-  border-right: none;
+section .spec {
+  margin: 2% 4%;
+  position: relative;
+  background-image: url('assets/logo.png');
 }
 
-section .spec {
-  margin: 5% 8%;
+
+.incon li:last-child {
+  border-right: none;
 }
 
 .Home {
