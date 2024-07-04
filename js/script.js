@@ -21,6 +21,11 @@ document.getElementById("Data").addEventListener('submit', function(event) {
   var gender = formData.get('JenisKe');
   var pesan = formData.get("Pesan");
   var time = new Date().toLocaleString();
+
+  if (name.length < 3) {
+    error.textContent = "Name must be at least 3 characters long.";
+    return false;
+}
   
   var outputDiv = document.getElementById("output");
   outputDiv.innerHTML = `
@@ -29,6 +34,9 @@ document.getElementById("Data").addEventListener('submit', function(event) {
     Tanggal Lahir: ${tgg}<br>
     Jenis Kelamin: ${gender}<br>
     Pesan: ${pesan}</p>`
+
+    alert("Form submitted successfully!");
+    return true;
 });
 
 function scrollToSec(sectionId) {

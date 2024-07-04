@@ -1,4 +1,44 @@
 @media screen and (min-width: 1200px) {
+  
+  footer{
+    width: 100%;
+    height: 100%;
+    margin: 10% 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 2em;
+    color: #000000;
+    border: 1px solid black;
+  }
+
+
+  .archievement {
+    position: relative;
+    display: inline-block; 
+    width: 100%;
+  }
+  
+  .cont {
+    position: absolute;
+    bottom: 10%; 
+    left: 0px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 5px; 
+    max-width: 80%; 
+  }
+  
+  .cont h1 {
+    margin: 0 0 1% 0; 
+    font-size: 2em; 
+  }
+  
+  .cont p {
+    margin: 0;
+    font-size: 1.5em; 
+  }
+
   .contain {
     display: flex;
     justify-content: space-between;
@@ -337,6 +377,45 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+  footer{
+    width: 100%;
+    height: 100%;
+    margin: 70% 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 2em;
+    color: #000000;
+    border: 1px solid black;
+  }
+
+  .archievement {
+    position: relative;
+    display: inline-block; 
+    width: 100%;
+  }
+  
+  .cont {
+    position: absolute;
+    bottom: 10%; 
+    left: 0px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 5px; 
+    max-width: 80%; 
+  }
+  
+  .cont h1 {
+    margin: 0 0 1% 0; 
+    font-size: 2em; 
+  }
+  
+  .cont p {
+    margin: 0;
+    font-size: 1.5em; 
+  }
+
   .contain {
     display: flex;
     justify-content: space-between;
@@ -500,13 +579,13 @@
   }
 
 
-  .content h1,.content1 h1{
+  .content h1,.content3 h1{
     margin: 1%;
     font-size: 4em;
   }
 
 
-  .content,.content1,.content2, .content3{
+  .content,.content1,.content2{
     position: absolute;
     top: 10%; 
     left: 5%; 
@@ -614,12 +693,9 @@
 
 
 
-  input[type="radio"] {
+  input #Laki, input #Laki{
     width: 1em;
     height: 1em;
-    border: 2px solid #00246B; 
-    border-radius: 50%;
-    background: #000000; 
   }
   
   .JenisK_input{
@@ -746,3 +822,7 @@ a:hover {
   height: 100%;
 }
 
+.arc{
+  width: 100%;
+  height: auto;
+}
